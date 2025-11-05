@@ -15,12 +15,12 @@ It helps farmers make informed decisions to increase productivity by analyzing k
 ## Machine Learning Models Used
 | S.No | Model Name              |
 |------|--------------------------|
-| 1️⃣  | Logistic Regression       |
-| 2️⃣  | Decision Tree Classifier  |
-| 3️⃣  | Random Forest Classifier  |
-| 4️⃣  | Support Vector Machine (SVM) |
-| 5️⃣  | K-Nearest Neighbors (KNN) |
-| 6️⃣  | Naive Bayes Classifier    |
+| 1️  | Logistic Regression       |
+| 2️  | Decision Tree Classifier  |
+| 3️  | Random Forest Classifier  |
+| 4️  | Support Vector Machine (SVM) |
+| 5️  | K-Nearest Neighbors (KNN) |
+| 6️  | Naive Bayes Classifier    |
 
 The **Random Forest Classifier** achieved the **highest accuracy** among all models and was selected as the final model for deployment.
 
@@ -46,7 +46,7 @@ The **Random Forest Classifier** achieved the **highest accuracy** among all mod
 | **Rainfall** | Rainfall in mm |
 | **Soil Type** | Type of soil (Clay, Loamy, Sandy, Peaty, Chalky) |
 
-## ⚙️ How It Works
+## How It Works
 1. Load the dataset and preprocess it.  
 2. Train six ML models and evaluate them using accuracy, precision, recall, and F1-score.  
 3. Compare model performances and select the best one (Random Forest).  
